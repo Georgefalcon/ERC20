@@ -1,0 +1,106 @@
+Compiling 32 files with 0.8.22
+Solc 0.8.22 finished in 12.28s
+Compiler run [33msuccessful with warnings:[0m
+[1;33mWarning (2018)[0m[1;37m: Function state mutability can be restricted to view[0m
+  [34m-->[0m test/TestOurToken.t.sol:24:5:
+[34m   |[0m
+[34m24 |[0m     [33mfunction testgeorgeBalance() public {[0m
+[34m   |[0m     [1;33m^ (Relevant source part starts here and spans across multiple lines).[0m
+
+Analysing contracts...
+Running tests...
+Uncovered for script/DeployOurToken.s.sol:
+
+Uncovered for src/ManualToken.sol:
+- Function "totalSupply" (location: source ID 29, line 8, chars 203-291, hits: 0)
+- Line (location: source ID 29, line 9, chars 267-283, hits: 0)
+- Statement (location: source ID 29, line 9, chars 267-283, hits: 0)
+- Function "decimal" (location: source ID 29, line 12, chars 299-374, hits: 0)
+- Line (location: source ID 29, line 13, chars 357-366, hits: 0)
+- Statement (location: source ID 29, line 13, chars 357-366, hits: 0)
+- Function "balanceOf" (location: source ID 29, line 16, chars 382-491, hits: 0)
+- Line (location: source ID 29, line 17, chars 458-483, hits: 0)
+- Statement (location: source ID 29, line 17, chars 458-483, hits: 0)
+- Function "transfer" (location: source ID 29, line 20, chars 499-797, hits: 0)
+- Line (location: source ID 29, line 21, chars 565-630, hits: 0)
+- Statement (location: source ID 29, line 21, chars 565-630, hits: 0)
+- Statement (location: source ID 29, line 21, chars 592-630, hits: 0)
+- Statement (location: source ID 29, line 21, chars 592-613, hits: 0)
+- Statement (location: source ID 29, line 21, chars 616-630, hits: 0)
+- Line (location: source ID 29, line 22, chars 641-674, hits: 0)
+- Statement (location: source ID 29, line 22, chars 641-674, hits: 0)
+- Line (location: source ID 29, line 23, chars 685-711, hits: 0)
+- Statement (location: source ID 29, line 23, chars 685-711, hits: 0)
+- Line (location: source ID 29, line 24, chars 722-789, hits: 0)
+- Statement (location: source ID 29, line 24, chars 722-789, hits: 0)
+- Branch (branch: 0, path: 0) (location: source ID 29, line 24, chars 722-789, hits: 0)
+- Branch (branch: 0, path: 1) (location: source ID 29, line 24, chars 722-789, hits: 0)
+
+Anchors for Contract "ManualToken" (solc 0.8.22+commit.4fc1097e.Linux.gcc, source ID 29):
+- IC 122 -> Item 0
+  - Refers to item: Function "totalSupply" (location: source ID 29, line 8, chars 203-291, hits: 0)
+- IC 403 -> Item 1
+  - Refers to item: Line (location: source ID 29, line 9, chars 267-283, hits: 0)
+- IC 403 -> Item 2
+  - Refers to item: Statement (location: source ID 29, line 9, chars 267-283, hits: 0)
+- IC 200 -> Item 3
+  - Refers to item: Function "decimal" (location: source ID 29, line 12, chars 299-374, hits: 0)
+- IC 493 -> Item 4
+  - Refers to item: Line (location: source ID 29, line 13, chars 357-366, hits: 0)
+- IC 493 -> Item 5
+  - Refers to item: Statement (location: source ID 29, line 13, chars 357-366, hits: 0)
+- IC 152 -> Item 6
+  - Refers to item: Function "balanceOf" (location: source ID 29, line 16, chars 382-491, hits: 0)
+- IC 420 -> Item 7
+  - Refers to item: Line (location: source ID 29, line 17, chars 458-483, hits: 0)
+- IC 420 -> Item 8
+  - Refers to item: Statement (location: source ID 29, line 17, chars 458-483, hits: 0)
+- IC 230 -> Item 9
+  - Refers to item: Function "transfer" (location: source ID 29, line 20, chars 499-797, hits: 0)
+- IC 500 -> Item 10
+  - Refers to item: Line (location: source ID 29, line 21, chars 565-630, hits: 0)
+- IC 500 -> Item 11
+  - Refers to item: Statement (location: source ID 29, line 21, chars 565-630, hits: 0)
+- IC 502 -> Item 12
+  - Refers to item: Statement (location: source ID 29, line 21, chars 592-630, hits: 0)
+- IC 511 -> Item 13
+  - Refers to item: Statement (location: source ID 29, line 21, chars 592-613, hits: 0)
+- IC 502 -> Item 14
+  - Refers to item: Statement (location: source ID 29, line 21, chars 616-630, hits: 0)
+- IC 532 -> Item 15
+  - Refers to item: Line (location: source ID 29, line 22, chars 641-674, hits: 0)
+- IC 532 -> Item 16
+  - Refers to item: Statement (location: source ID 29, line 22, chars 641-674, hits: 0)
+- IC 618 -> Item 17
+  - Refers to item: Line (location: source ID 29, line 23, chars 685-711, hits: 0)
+- IC 618 -> Item 18
+  - Refers to item: Statement (location: source ID 29, line 23, chars 685-711, hits: 0)
+- IC 704 -> Item 19
+  - Refers to item: Line (location: source ID 29, line 24, chars 722-789, hits: 0)
+- IC 704 -> Item 20
+  - Refers to item: Statement (location: source ID 29, line 24, chars 722-789, hits: 0)
+- IC 738 -> Item 21
+  - Refers to item: Branch (branch: 0, path: 0) (location: source ID 29, line 24, chars 722-789, hits: 0)
+- IC 742 -> Item 22
+  - Refers to item: Branch (branch: 0, path: 1) (location: source ID 29, line 24, chars 722-789, hits: 0)
+
+Anchors for Contract "DeployOurToken" (solc 0.8.22+commit.4fc1097e.Linux.gcc, source ID 28):
+- IC 155 -> Item 23
+  - Refers to item: Function "run" (location: source ID 28, line 11, chars 306-492, hits: 2)
+- IC 313 -> Item 24
+  - Refers to item: Line (location: source ID 28, line 12, chars 360-379, hits: 2)
+- IC 313 -> Item 25
+  - Refers to item: Statement (location: source ID 28, line 12, chars 360-379, hits: 2)
+- IC 420 -> Item 26
+  - Refers to item: Line (location: source ID 28, line 13, chars 390-429, hits: 2)
+- IC 420 -> Item 27
+  - Refers to item: Statement (location: source ID 28, line 13, chars 390-429, hits: 2)
+- IC 576 -> Item 28
+  - Refers to item: Line (location: source ID 28, line 14, chars 440-458, hits: 2)
+- IC 576 -> Item 29
+  - Refers to item: Statement (location: source ID 28, line 14, chars 440-458, hits: 2)
+- IC 673 -> Item 30
+  - Refers to item: Line (location: source ID 28, line 15, chars 469-484, hits: 2)
+- IC 673 -> Item 31
+  - Refers to item: Statement (location: source ID 28, line 15, chars 469-484, hits: 2)
+
